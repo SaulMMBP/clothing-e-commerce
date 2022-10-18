@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8"
+  },
+  "name": "saulecommrce",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaulMMBP/clothing-e-commerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaulMMBP/clothing-e-commerce/issues"
+  },
+  "homepage": "https://github.com/SaulMMBP/clothing-e-commerce#readme"
+}
