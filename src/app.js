@@ -11,6 +11,9 @@ const mainRoutes = require("./routes/mainRoutes");
 app.set("view engine", "ejs");
 app.set("views", __dirname + "/views");
 
+// Static files
+app.use("/public", express.static("public"));
+
 // Levantamos el sevidor
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
