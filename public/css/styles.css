@@ -1,4 +1,40 @@
-header {
+/* ========================== 
+
+    TABLE CONTENT
+
+ ==========================
+ 
+    1.1 - GLOBAL
+    1.2 - FONTS
+    1.3 - LAYOUT
+        1.3.1 - HEADER  
+        1.3.2 - FOOTER
+ */
+
+ /* ========================== 
+    1.1 - GLOBAL
+ ==========================*/
+ 
+ /* Aplicamos a todo el documento */
+* {
+  box-sizing: border-box; /* ajustamos todos los elementos  */ 
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif; /* tipo de fuente */
+}
+
+ /* ========================== 
+    1.2 - FONTS
+ ==========================*/
+
+ /* Font Family (Poppins) */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+ /* ========================== 
+    1.3.1 - HEADER  
+ ==========================*/
+ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -49,3 +85,4 @@ header a {
     font-size: 1rem;
     outline: none;
 }
+
