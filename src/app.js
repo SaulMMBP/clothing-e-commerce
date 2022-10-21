@@ -11,9 +11,6 @@ const mainRoutes = require("./routes/mainRoutes");
 app.set("view engine", "ejs");
 app.set("views", __dirname + "/views");
 
-// Static files
-// app.use("/public", express.static("public"));
-
 // Definir la ruta de archivos estaticos a nivel aplicacion
 app.use(express.static(path.join(__dirname, "..", "public"))); // funciona mejor esta y evitamos poner "public" en direccion
 

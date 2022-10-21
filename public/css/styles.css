@@ -34,6 +34,8 @@
  /* ========================== 
     1.3.1 - HEADER  
  ==========================*/
+
+ /* Estilo general del header */
  header {
     display: flex;
     align-items: center;
@@ -41,15 +43,18 @@
     color: black;
 }
 
+/* Estilo para enlaces en el header */
 header a {
     text-decoration: none;
     color: black;
 }
 
+/* Estilos para los iconos acount y cart */
 .header__actions i {
     margin-left: 0.5rem;
 }
 
+/* Estilo para el menu lateral desplegable en mobile */
 .header__nav {
     background-color: white;
     visibility: hidden;
@@ -62,16 +67,19 @@ header a {
     padding: 0;
 }
 
+/* Estilo para abrir el menu lateral */
 .active-nav-bar {
     visibility: visible;
     left: 0;
 }
 
+/* Estilo para el botón para cerrar el menu lateral */
 .header__nav__btn-close {
     margin: 0.5rem;
     text-align: right;
 }
 
+/* Estilos para los items de la lista del menú lateral */
 .header__nav nav ul li {
     list-style:  none;
     margin: 1rem 0;
@@ -80,6 +88,7 @@ header a {
     border-bottom: solid 1px rgb(129, 129, 129);
 }
 
+/* Estilo para el input de busqueda en el menú lateral */
 .header__nav nav input {
     border: none;
     font-size: 1rem;
